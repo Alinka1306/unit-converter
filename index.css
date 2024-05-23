@@ -1,3 +1,50 @@
 body {
     margin: 0;
 }
+.container {
+    width: 50%;
+    margin: auto auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+#input-container {
+    background-color: navy;
+    color: white;
+}
+#unit-input {
+    font-size: 180%;
+    font-weight: 600;
+    margin-bottom: 10px;
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+#convert-btn {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#results-container {
+    background-color: lightgray;
+    padding: 5px 20px;
+    min-height: 70%;
+}
+#results-container .sub-container {
+    background-color: white;
+    color: navy;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
